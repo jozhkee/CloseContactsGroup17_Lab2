@@ -1,0 +1,29 @@
+# IDE
+.idea/
+*.iml
+
+# Android
+local.properties
+**/local.properties
+**/build/
+**/.gradle/
+**/.cxx/
+
+# Gradle wrapper binary
+gradle/wrapper/gradle-wrapper.jar
+**/gradle/wrapper/gradle-wrapper.jar
+
+# Database (runtime-generated)
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
