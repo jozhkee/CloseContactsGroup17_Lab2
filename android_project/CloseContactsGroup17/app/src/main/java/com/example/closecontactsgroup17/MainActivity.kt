@@ -27,8 +27,6 @@ import java.net.URL
 
 data class Contact(val name: String, val phoneNumber: String)
 
-// ⚠️ Change this to your computer's IP address when running on a real device
-// Use 10.0.2.2 for the Android emulator (it maps to your PC's localhost)
 const val SERVER_URL = "http://10.0.2.2:5000/contacts"
 
 class MainActivity : ComponentActivity() {
